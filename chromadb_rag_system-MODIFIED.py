@@ -163,8 +163,8 @@ class ChromaDBRAGSystem:
         
         # Initialize OpenAI client for embeddings and generation
         self.openai_client = OpenAI(
-            base_url = "https://openai.vocareum.com/v1",
-            api_key="voc-728998506126677175940469ac63c7a3c9c7.04878738"
+            base_url = "abc",
+            api_key="abc"
         )
 
         # Initialize local embedding model (if configured)
